@@ -1,0 +1,6 @@
+.sortBtn {
+  cursor: pointer;
+}
+.sortBtn:hover {
+  text-decoration: underline;
+}

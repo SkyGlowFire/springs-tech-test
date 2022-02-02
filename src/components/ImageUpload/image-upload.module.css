@@ -1,0 +1,23 @@
+.input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.label {
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed mediumslateblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label::after {
+  content: 'Upload image';
+  color: mediumslateblue;
+  font-size: 0.8rem;
+  text-align: center;
+}
